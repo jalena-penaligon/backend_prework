@@ -21,8 +21,8 @@ end
 
 jalena = Person.new("Jalena", "Colorado")
 p jalena
-p jalena.say_hi
-p jalena.favorite_activity
+jalena.say_hi
+jalena.favorite_activity
 
 class Dog
   def initialize(breed, size)
@@ -40,5 +40,5 @@ class Dog
 end
 
 gunner = Dog.new("Malamute", "20lbs")
-p gunner.good_boy
-p gunner.bark
+gunner.good_boy
+gunner.bark

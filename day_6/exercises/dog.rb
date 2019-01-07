@@ -13,7 +13,7 @@ class Dog
   end
 
   def hungry
-    puts "Is the dog hungry? #{@hungry}." 
+    puts "Is the dog hungry? #{@hungry}."
   end
 
   def bark
@@ -35,8 +35,8 @@ fido = Dog.new("Bernese", "Fido", 4)
 p fido.breed
 p fido.name
 p fido.age
-p fido.hungry
+fido.hungry
 fido.eat
-p fido.hungry
+fido.hungry
 fido.play
-p fido.hungry
+fido.hungry
